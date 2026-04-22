@@ -9,7 +9,6 @@ interface MapPremise {
   phone?: string;
   website?: string;
   isOpen?: string;
-  description?: string;
   sponsored: boolean;
   reviewText: string;
   rawTextList?: string[];
@@ -28,7 +27,10 @@ function toCSV(data: MapPremise[]) {
     "phone",
     "website",
     "isOpen",
-    "sponsored"
+    "sponsored",
+    "reviewText",
+    "rawTextList",
+    "rawText",
   ];
 
   const rows = data.map((p) => [
@@ -42,7 +44,10 @@ function toCSV(data: MapPremise[]) {
     p.phone ?? "",
     p.website ?? "",
     p.isOpen ?? "",
-    p.sponsored
+    p.sponsored,
+    p.reviewText ?? "",
+    p.rawTextList?.join("; ") ?? "",
+    p.rawText ?? "",
   ]);
 
   return [

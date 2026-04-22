@@ -11,7 +11,10 @@ function toCSV(data) {
         "phone",
         "website",
         "isOpen",
-        "sponsored"
+        "sponsored",
+        "reviewText",
+        "rawTextList",
+        "rawText",
     ];
     const rows = data.map((p) => [
         p.cid,
@@ -24,7 +27,10 @@ function toCSV(data) {
         p.phone ?? "",
         p.website ?? "",
         p.isOpen ?? "",
-        p.sponsored
+        p.sponsored,
+        p.reviewText ?? "",
+        p.rawTextList?.join("; ") ?? "",
+        p.rawText ?? "",
     ]);
     return [
         headers.join(","),
