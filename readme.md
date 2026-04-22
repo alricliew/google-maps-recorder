@@ -48,7 +48,7 @@ Click the green **Code** button, then select:
 
 ### 3. Open Chrome Extensions Page
 
-Open Google Chrome and go to setting & look for "Extension. You should be redirected to chrome://extensions/
+Open Google Chrome and go to setting & look for "Extensions" > "Manage Extensions". You should be redirected to chrome://extensions/
 
 ---
 
@@ -76,7 +76,7 @@ Go to Google Maps:
 
 https://www.google.com/maps
 
-You will see the **Google Map Recorder widget** appear automatically on the page.
+You will see the **Google Map Recorder widget** appear automatically on top right of the page.
 
 ---
 
@@ -84,9 +84,8 @@ You will see the **Google Map Recorder widget** appear automatically on the page
 
 The floating widget includes:
 
-- Extract Feed (main)
+- Extract results from "Search Google Maps"
 - Download CSV / JSON
-- Clear data
 - Live preview
 
 ---
