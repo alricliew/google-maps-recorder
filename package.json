@@ -1,0 +1,17 @@
+{
+  "name": "google-map-recorder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/chrome": "^0.1.40",
+    "typescript": "^6.0.3"
+  }
+}
